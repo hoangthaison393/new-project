@@ -132,21 +132,22 @@
 
 <!--Slideshow -->
 <!-- Container for the image gallery -->
-<div class="container-fluid">
+
+<div class="container" style="background-color: black">
   <!-- Full-width images with number text -->
   <div class="mySlides" style="background-color: red">
     <div class="numbertext">1 / 5</div>
-      <img src="image\slide\microwave1.jpg" style="width:100%">
+      <img src="image\slide\microwave.jpg" style="width:100%">
 </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 5</div>
-      <img src="image\slide\bulbs.jpg" style="width:100%">
+      <img src="image\slide\bulbs.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 5</div>
-      <img src="image\slide\fan.jpg" style="width:100%">
+      <img src="image\slide\fan.png" style="width:100%">
   </div>
 
   <div class="mySlides">
@@ -156,7 +157,7 @@
 
   <div class="mySlides">
     <div class="numbertext">5 / 5</div>
-      <img src="image\slide\microwave.jpeg" style="width:100%">
+      <img src="image\slide\drills.jpg" style="width:100%">
   </div>
 
 
@@ -165,26 +166,26 @@
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
   <!-- Image text -->
-  <div class="caption-container-fluid">
+  <div class="caption-container">
     <p id="caption"></p>
   </div>
 
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="image\slide\microwave1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      <img class="demo cursor" src="image\slide\microwave.jpg" style="width:100%" onclick="currentSlide(1)" alt="ARE YOU LOOKING FOR A STRONG AND QUIET MICROWAVE OVEN ?">
     </div>
     <div class="column">
-      <img class="demo cursor" src="image\slide\bulbs.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      <img class="demo cursor" src="image\slide\bulbs.png" style="width:100%" onclick="currentSlide(2)" alt="WE HAVE ALL TYPE OF LIGHT BULBS YOU NEED - 8000 HOURS ON THE LIGHT ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="image\slide\fan.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="image\slide\fan.png" style="width:100%" onclick="currentSlide(3)" alt="SUMMER IS COMMING ?! DON'T WORRY, TAKE OUR NEWEST 'ĐIỆN CƠ VN's FAN ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="image\slide\fridge.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      <img class="demo cursor" src="image\slide\fridge.png" style="width:100%" onclick="currentSlide(4)" alt="YOUR FRIDGE IS TOO OLD AND NOT RUNNING WELL - BUY THIS NEW SAMSUNG RTX2030 FRIDGE NOW">
     </div>
     <div class="column">
-      <img class="demo cursor" src="image\slide\microwave.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      <img class="demo cursor" src="image\slide\drills.jpg" style="width:100%" onclick="currentSlide(5)" alt="THE STRONGEST DRILL EVER MADE: 18V-CORDLESS-DRILL">
     </div>
   </div>
 </div>
@@ -244,9 +245,11 @@ function showSlides(n) {
 
     <div class="slider-row">
             <div class="owl-carousel owl-theme">
-                <div class="item"><img src="./image/slide/fan.jpg" alt="No image found"></div>
-                <div class="item"><img src="./image/slide/fridge.png" alt="No image found"></div>
-                <div class="item"><img src="./image/slide/microwave.jpeg" alt="No image found"></div>
+                <div class="item"><img src="image\slide\microwave.jpg" alt="No image found"></div>
+                <div class="item"><img src="image\slide\bulbs.png" alt="No image found"></div>
+                <div class="item"><img src="image\slide\fan.png" alt="No image found"></div>
+                <div class="item"><img src="image\slide\fridge.png" alt="No image found"></div>
+                <div class="item"><img src="image\slide\drills.jpg" alt="No image found"></div>
             </div>
         </div>
         
@@ -268,6 +271,86 @@ function showSlides(n) {
                 }
             })
         </script>
+        
+        <div class="footer-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-about-us">
+                        <h2>E<span>Pro</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
+                        <div class="footer-social">
+                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-menu">
+                        <h2 class="footer-wid-title">User Navigation </h2>
+                        <ul>
+                            <li><a href="#">My account</a></li>
+                            <li><a href="#">Order history</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Vendor contact</a></li>
+                            <li><a href="#">Front page</a></li>
+                        </ul>                        
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-menu">
+                        <h2 class="footer-wid-title">Categories</h2>
+                        <ul>
+                            <li><a href="#">Mobile Phone</a></li>
+                            <li><a href="#">Home accesseries</a></li>
+                            <li><a href="#">LED TV</a></li>
+                            <li><a href="#">Computer</a></li>
+                            <li><a href="#">Gadets</a></li>
+                        </ul>                        
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-newsletter">
+                        <h2 class="footer-wid-title">Newsletter</h2>
+                        <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
+                        <div class="newsletter-form">
+                            <form action="#">
+                                <input type="email" placeholder="Type your email">
+                                <input type="submit" value="Subscribe">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End footer top area -->
+    
+    <div class="footer-bottom-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="copyright">
+                        <p>&copy; 2015 eElectronics. All Rights Reserved. Coded with <i class="fa fa-heart"></i> by <a href="http://wpexpand.com" target="_blank">WP Expand</a></p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="footer-card-icon">
+                        <i class="fa fa-cc-discover"></i>
+                        <i class="fa fa-cc-mastercard"></i>
+                        <i class="fa fa-cc-paypal"></i>
+                        <i class="fa fa-cc-visa"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End footer bottom area -->
 <?php
 if(isset($_GET['productid']))
 {
